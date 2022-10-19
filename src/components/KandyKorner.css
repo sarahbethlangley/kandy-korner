@@ -31,3 +31,38 @@ p {
   margin-block-end: 0;
 }
 
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+}
+
+.item-card {
+  flex: 0 0 25%;
+  
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  padding: 0.7rem;
+  border: 3px dotted rgb(161, 18, 154);
+  background-color: rgb(18, 116, 124);
+  margin: 0.5rem 0;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  padding: 0.7rem;
+  border: 3px dotted rgb(161, 18, 154);
+  background-color: rgb(18, 116, 124);
+  margin: 0.5rem 0;
+}
